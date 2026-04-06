@@ -1,0 +1,35 @@
+[
+    {
+        "slide": 1,
+        "image": "/static/images/home/girl2.jpg",
+        "title": "AutomationExercise",
+        "subtitle": "Full-Fledged practice website for Automation Engineers",
+        "description": "All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.",
+        "buttons": [
+            {"buttonText": "Test Cases" , "urlButton": "/test_cases"},
+            {"buttonText": "APIs list for practice", "urlButton": "/api_list" }           
+        ]
+    },
+    {
+        "slide": 2,
+        "title": "AutomationExercise",
+        "image": "/static/images/home/girl1.jpg",
+        "subtitle": "Full-Fledged practice website for Automation Engineers",
+        "description": "All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.",
+        "buttons": [
+            {"buttonText": "Test Cases" , "urlButton": "/test_cases"},
+            {"buttonText": "APIs list for practice", "urlButton": "/api_list" }           
+        ]
+    },
+    {
+        "slide": 3,
+        "title": "AutomationExercise",
+        "image": "/static/images/home/girl3.jpg",
+        "subtitle": "Full-Fledged practice website for Automation Engineers",
+        "description": "All QA engineers can use this website for automation practice and API testing either they are at beginner or advance level. This is for everybody to help them brush up their automation skills.",
+        "buttons": [
+            {"buttonText": "Test Cases" , "urlButton": "/test_cases"},
+            {"buttonText": "APIs list for practice", "urlButton": "/api_list" }           
+        ]
+    }
+]

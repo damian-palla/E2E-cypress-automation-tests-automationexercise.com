@@ -1,0 +1,26 @@
+[
+  { "name": "Polo",
+    "urlBrand": "/Polo"
+  },
+  { "name": "H&M",
+    "urlBrand": "/H&M"
+  },
+  { "name": "Madame",
+    "urlBrand": "/Madame"
+  },
+  { "name": "Mast & Harbour",
+    "urlBrand": "/Mast%20&%20Harbour"
+  },
+  { "name": "Babyhug",
+    "urlBrand": "/Babyhug"
+  },
+  { "name": "Allen Solly Junior",
+    "urlBrand": "/Allen%20Solly%20Junior"
+  },
+  { "name": "Kookie Kids",
+    "urlBrand": "/Kookie%20Kids"
+  },
+  { "name": "Biba",
+    "urlBrand": "/Biba"
+  }
+]

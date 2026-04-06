@@ -1,0 +1,25 @@
+[
+    {
+        "category": "Women",
+        "subcategories": [
+            {"subcategoryName": "Dress" , "urlSubcategory": "/category_products/1"},
+            {"subcategoryName": "Tops" , "urlSubcategory": "/category_products/2"},
+            {"subcategoryName": "Saree" , "urlSubcategory": "/category_products/7"}
+    ]},
+    {
+        "category": "Men",
+        "subcategories": [
+            {"subcategoryName": "Tshirts" , "urlSubcategory": "/category_products/3"},
+            {"subcategoryName": "Jeans" , "urlSubcategory": "/category_products/6"}
+        ]
+    },
+    {
+        "category": "Kids",
+        "subcategories": [
+            {"subcategoryName": "Dress" , "urlSubcategory": "/category_products/4"},
+            {"subcategoryName": "Tops & Shirts" , "urlSubcategory": "/category_products/5"}
+        ]
+    }
+    
+]
+
