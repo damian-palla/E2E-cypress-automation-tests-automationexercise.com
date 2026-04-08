@@ -47,12 +47,12 @@ Cypress.Commands.add('recommendedProductsSlides', () => {
 
            //**//       CREATING A NEW ACCOUNT COMMAND              //**//
 
-Cypress.Commands.add('newAccount',(usersData, POMsignUp) =>{
+Cypress.Commands.add('newAccount',(usersData, signUp) =>{
 
 //Name, email and password are mandatory fields
-    //POMsignUp.nameInput().type(usersData.name)
-    //POMsignUp.emailInput().type(usersData.email)
-    POMsignUp.passwordInput().type(usersData.password).as('Password')
+    //signUp.nameInput().type(usersData.name)
+    //signUp.emailInput().type(usersData.email)
+    signUp.passwordInput().type(usersData.password).as('Password')
 
 // Date of birth is a mandatory field   
 //Creating an array with the months to select them by their position
@@ -68,43 +68,43 @@ const monthIndex = months[parseInt(month) - 1]
 // Converting the day of birth to an integer
 const dayIndex = parseInt(day)
 
-    POMsignUp.birthDay().select(dayIndex).as('Day of Birth')
-    POMsignUp.birthMonth().select(monthIndex).as('Month of Birth')
-    POMsignUp.birthYear().select(year).as('Year of Birth')
+    signUp.birthDay().select(dayIndex).as('Day of Birth')
+    signUp.birthMonth().select(monthIndex).as('Month of Birth')
+    signUp.birthYear().select(year).as('Year of Birth')
 
 
 // First and last name are mandatory fields 
-    POMsignUp.addressFirstName().type(usersData.addressName).as('Address - First Name')
-    POMsignUp.addressLastName().type(usersData.addressLastName).as('Address - Last Name')
+    signUp.addressFirstName().type(usersData.addressName).as('Address - First Name')
+    signUp.addressLastName().type(usersData.addressLastName).as('Address - Last Name')
     
 //Company it's not a mandatory field, so we validate if it exists in the fixture before typing it
     if(usersData.company){
-        POMsignUp.company().type(usersData.company).as('Address - Company')
+        signUp.company().type(usersData.company).as('Address - Company')
     }
 
 //Address 1 it's a mandatory field
-    POMsignUp.address1().type(usersData.address1).as('Address - Address1')
+    signUp.address1().type(usersData.address1).as('Address - Address1')
 
 
 // Address 2 it's not a mandatory field, so we validate if it exists in the fixture before typing it
     if (usersData.address2) {
-    POMsignUp.address2().type(usersData.address2).as('Address - Address2')
+    signUp.address2().type(usersData.address2).as('Address - Address2')
     }
 
 // Country it's a mandatory field
-    POMsignUp.country().select(usersData.country).as('Address - Country')    
+    signUp.country().select(usersData.country).as('Address - Country')    
 
 // State it's a mandatory field
-    POMsignUp.state().type(usersData.state).as('Address - State')
+    signUp.state().type(usersData.state).as('Address - State')
 
 // City it's a mandatory field
-    POMsignUp.city().type(usersData.city).as('Address - City')
+    signUp.city().type(usersData.city).as('Address - City')
 
 // Zipcode it's a mandatory field
-    POMsignUp.zipcode().type(usersData.zipcode).as('Address - Zipcode')
+    signUp.zipcode().type(usersData.zipcode).as('Address - Zipcode')
 
 // Mobile number it's a mandatory field
-    POMsignUp.mobileNumber().type(usersData.mobilePhone).as('Address - Mobile Number')
+    signUp.mobileNumber().type(usersData.mobilePhone).as('Address - Mobile Number')
 
 })
 
@@ -230,6 +230,7 @@ Cypress.Commands.add('login', (usersData) => {
 
 
 //**//       VALIDATING PURCHASE TOTAL IN CHECKOUT             //**//
+
 Cypress.Commands.add('validateTotalAmount', (products) => {
   let totalAmount = 0
 
