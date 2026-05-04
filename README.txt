@@ -1,6 +1,6 @@
 # 🧪 Cypress Automation Tests — automationexercise.com (Spanish and English versions)
 
-## (ENG) English Version <a name="english-version"></a>
+## (ENG) English Version
 
 ### Description
 
