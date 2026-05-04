@@ -1,4 +1,4 @@
-# 🧪 Cypress Automation Tests — automationexercise.com (Spanish and English versions)
+# 🧪 Cypress Automation Test — automationexercise.com (Spanish and English versions)
 
 ## (ENG) English Version
 
